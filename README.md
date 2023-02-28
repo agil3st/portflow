@@ -10,7 +10,7 @@
 
 ## Live Preview
 
-You can watch live preview on this [site](https://portflow.layground.id/). You can watch (subscribe) this repo releases, so you can get notification when it's updated.
+You can watch live preview on this [site](https://portflow.layground.id/). You can also subscribe for this repo releases, so you can get notification when it's updated.
 
 ## Running This Project
 
