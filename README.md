@@ -10,7 +10,7 @@
 
 ## Live Preview
 
-You can watch live preview on this [site](https://portflow.layground.id/). You can also subscribe for this repo releases, so you can get notification when it's updated.
+You can watch live preview on this [site](https://portflow-mu.vercel.app/). You can also subscribe for this repo releases, so you can get notification when it's updated.
 
 ## Running This Project
 
@@ -33,4 +33,4 @@ You can watch live preview on this [site](https://portflow.layground.id/). You c
 
 > Note: You can do Git stuffs on GitHub Desktop if you prefered
 
---- ***HAPPY CODING!*** ---
+--- **_HAPPY CODING!_** ---
