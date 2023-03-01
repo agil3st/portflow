@@ -27,26 +27,38 @@
     <!-- component -->
     <div class="max-w-screen-lg mx-auto">
       <!-- Navbar -->
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </label>
-            <ul
-              tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <div class="relative">
+        <div class="navbar bg-base-100 z-10 fixed top-0">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="/">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="showcase.html">Showcase</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+              </ul>
+            </div>
+            <a href="/" class="btn btn-ghost normal-case text-xl">Portflow.</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 space-x-3">
               <li><a href="/">Home</a></li>
               <li><a href="stories.html">Stories</a></li>
               <li><a href="showcase.html">Showcase</a></li>
@@ -54,31 +66,52 @@
               <li><a href="#" class="active">Contact</a></li>
             </ul>
           </div>
-          <a href="/" class="btn btn-ghost normal-case text-xl">Portflow</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a href="/">Home</a></li>
-            <li><a href="stories.html">Stories</a></li>
-            <li><a href="showcase.html">Showcase</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#" class="active">Contact</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a tabindex="0" class="btn btn-ghost btn-circle avatar">
-            <div class="w-10 rounded-full">
-              <img src="https://i.pravatar.cc/300?img=5" />
-            </div>
-          </a>
+          <div class="navbar-end">
+            <a tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img src="https://i.pravatar.cc/300?img=5" />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- End of Navbar -->
       <!-- Content -->
-      <section class=""></section>
+      <section class="">
+        <div class="hero min-h-screen">
+          <div
+            class="hero-content flex-col lg:flex-row max-w-screen-lg mx-auto mt-20 lg:mt-0">
+            <img
+              src="https://i.pravatar.cc/500?img=1"
+              class="max-w-sm rounded-lg shadow-2xl" />
+            <div class="p-1 lg:ml-6">
+              <h1 class="text-2xl font-bold">Let's discuss something!</h1>
+              <p class="py-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Itaque, corrupti nesciunt nam ad pariatur cum sapiente illo
+                debitis qui laborum!
+              </p>
+              <div class="mt-3 space-y-3 lg:space-y-2">
+                <input
+                  type="text"
+                  placeholder="John Who"
+                  class="input input-bordered rounded-md text-sm w-full bg-gray-800 border-gray-600" />
+                <input
+                  type="email"
+                  placeholder="john@mail.com"
+                  class="input input-bordered rounded-md text-sm w-full bg-gray-800 border-gray-600" />
+                <textarea
+                  class="textarea textarea-bordered rounded-md text-sm p-3 w-full bg-gray-800 border-gray-600"
+                  placeholder="Write some message for me..."></textarea>
+                <button class="btn btn-primary">Send To Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- End of Content -->
       <!-- Footer -->
-      <footer class="footer footer-center p-10 rounded-md">
+      <footer class="footer footer-center p-10 rounded-md mt-8">
         <div>
           <p class="font-bold">
             Portflow. <br />A simple portfolio web template
