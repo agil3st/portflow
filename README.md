@@ -22,8 +22,8 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 ## Pages & Features
 
 - ✅ Home
-- ⬛ Stories
-- ⬛ Showcase
+- ✅ Stories
+- ✅ Showcase
 - ⬛ About
 - ⬛ Contact
 
