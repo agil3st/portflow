@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["Playfair", "Portflow"],
+  "cSpell.words": [
+    "Bulma",
+    "Lineicons",
+    "Picsum",
+    "Playfair",
+    "Portflow",
+    "Pravatar"
+  ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
