@@ -20,8 +20,8 @@
     <!-- component -->
     <div class="mx-auto">
       <!-- Navbar -->
-      <div class="max-w-screen-lg mx-auto">
-        <div class="navbar bg-base-100">
+      <div class="relative">
+        <div class="navbar bg-base-100 z-10 fixed">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@
             <a href="/" class="btn btn-ghost normal-case text-xl">Portflow</a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 space-x-3">
               <li><a href="/" class="active">Home</a></li>
               <li><a href="stories.html">Stories</a></li>
               <li><a href="showcase.html">Showcase</a></li>
@@ -71,12 +71,30 @@
       <!-- End of Navbar -->
       <!-- Content -->
       <article class="">
+        <div class="hero min-h-screen bg-base-200">
+          <div
+            class="hero-content max-w-screen-lg mx-auto flex-col lg:flex-row-reverse">
+            <img
+              src="assets/images/3d-business-guy-working-on-a-computer.png"
+              class="mt-0 pt-0" />
+            <div class="text-center md:text-left mb-14 md:mb-0 mr-0 md:mr-16">
+              <h1 class="text-5xl font-bold">Agil Setiawan</h1>
+              <p class="py-6">
+                I have 3 years exp in Flutter in my previous company,
+                CrossTechno based on Surabaya, ID. I love practicing my skills
+                and upscale for the real world users and share my knowledge to
+                help each other.
+              </p>
+              <button class="btn btn-primary">Contact Me</button>
+            </div>
+          </div>
+        </div>
         <div class="max-w-screen-lg mx-auto">
+          <!-- recent posts -->
           <section id="overview">
-            <!-- recent posts -->
             <div
               class="flex mt-16 mb-4 px-4 lg:px-0 items-center justify-between">
-              <h2 class="font-bold text-white text-3xl">Latest News</h2>
+              <h2 class="font-bold text-white text-3xl">Latest Article</h2>
               <a
                 class="text-indigo-300 hover:text-indigo-400 px-3 py-1 cursor-pointer">
                 View All
@@ -89,10 +107,10 @@
                   class="rounded"
                   alt="technology" />
                 <div class="p-4 pl-0">
-                  <h2 class="font-bold text-2xl text-white">
+                  <h2 class="font-bold text-2xl text-white line-clamp-2">
                     Put all speaking her delicate recurred possible.
                   </h2>
-                  <p class="text-gray-300 mt-2">
+                  <p class="text-gray-300 mt-2 line-clamp-3">
                     Set indulgence inquietude discretion insensible bed why
                     announcing. Middleton fat two satisfied additions. So
                     continued he or commanded household smallness delivered.
@@ -113,10 +131,10 @@
                   class="rounded"
                   alt="technology" />
                 <div class="p-4 pl-0">
-                  <h2 class="font-bold text-2xl text-white">
+                  <h2 class="font-bold text-2xl text-white line-clamp-2">
                     Is at purse tried jokes china ready decay an.
                   </h2>
-                  <p class="text-gray-300 mt-2">
+                  <p class="text-gray-300 mt-2 line-clamp-3">
                     Small its shy way had woody downs power. To denoting
                     admitted speaking learning my exercise so in. Procured
                     shutters mr it feelings. To or three offer house begin taken
@@ -137,11 +155,11 @@
                   class="rounded"
                   alt="technology" />
                 <div class="p-4 pl-0">
-                  <h2 class="font-bold text-2xl text-white">
+                  <h2 class="font-bold text-2xl text-white line-clamp-2">
                     As dissuade cheerful overcame so of friendly he indulged
                     unpacked.
                   </h2>
-                  <p class="text-gray-300 mt-2">
+                  <p class="text-gray-300 mt-2 line-clamp-3">
                     Alteration connection to so as collecting me. Difficult in
                     delivered extensive at direction allowance. Alteration put
                     use diminution can considered sentiments interested
@@ -156,9 +174,93 @@
                 </div>
               </div>
             </div>
-            <!-- end recent posts -->
+          </section>
+          <!-- end recent posts -->
+          <!-- medium -->
+          <section>
+            <div
+              class="flex mt-16 mb-4 px-4 lg:px-0 items-center justify-between">
+              <h2 class="font-bold text-white text-3xl">From Medium</h2>
+              <a
+                class="text-indigo-300 hover:text-indigo-400 px-3 py-1 cursor-pointer">
+                View All
+              </a>
+            </div>
+            <div>
+              <content
+                class="grid grid-cols-6 lg:grid-cols-12 gap-3 w-full px-4 pb-4 lg:px-0">
+                <div class="col-span-4 lg:col-span-9 flex flex-col">
+                  <subject
+                    class="font-bold text-lg lg:text-2 pt-1 line-clamp-2 lg:line-clamp-3">
+                    Lorem ipsum dolor sit amet
+                  </subject>
 
-            <!-- subscribe -->
+                  <description
+                    class="font-light text-sm lg:text-lg pt-2 line-clamp-2 lg:line-clamp-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Itaque, esse? Quod, voluptate laborum! Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Ea iste magni
+                    necessitatibus nemo?
+                  </description>
+                </div>
+
+                <div class="col-span-2 lg:col-span-3 flex items-center">
+                  <img
+                    src="https://picsum.photos/id/33/500/500"
+                    class="rounded w-full" />
+                </div>
+              </content>
+              <content
+                class="grid grid-cols-6 lg:grid-cols-12 gap-3 w-full px-4 pb-4 lg:px-0">
+                <div class="col-span-4 lg:col-span-9 flex flex-col">
+                  <subject
+                    class="font-bold text-lg lg:text-2 pt-1 line-clamp-2 lg:line-clamp-3">
+                    Consectetur adipisicing elit. Dicta, eveniet!
+                  </subject>
+
+                  <description
+                    class="font-light text-sm lg:text-lg pt-2 line-clamp-2 lg:line-clamp-5">
+                    Tenetur ipsam possimus veritatis sit ab expedita, placeat
+                    molestiae consequuntur non voluptatum. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Ea iste magni
+                    necessitatibus nemo?
+                  </description>
+                </div>
+
+                <div class="col-span-2 lg:col-span-3 flex items-center">
+                  <img
+                    src="https://picsum.photos/id/80/500/500"
+                    class="rounded w-full" />
+                </div>
+              </content>
+              <content
+                class="grid grid-cols-6 lg:grid-cols-12 gap-3 w-full px-4 pb-4 lg:px-0">
+                <div class="col-span-4 lg:col-span-9 flex flex-col">
+                  <subject
+                    class="font-bold text-lg lg:text-2 pt-1 line-clamp-2 lg:line-clamp-3">
+                    Temporibus quia aperiam delectus
+                  </subject>
+
+                  <description
+                    class="font-light text-sm lg:text-lg pt-2 line-clamp-2 lg:line-clamp-5">
+                    Repellat magni pariatur commodi nesciunt qui doloribus
+                    architecto consectetur. Provident, voluptatum cumque. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Ea iste
+                    magni necessitatibus nemo?
+                  </description>
+                </div>
+
+                <div class="col-span-2 lg:col-span-3 flex items-center">
+                  <img
+                    src="https://picsum.photos/id/234/500/500"
+                    class="rounded w-full" />
+                </div>
+              </content>
+            </div>
+          </section>
+          <!-- end medium section -->
+          <!-- subscribe -->
+          <section>
             <div class="rounded flex md:shadow mt-12">
               <img
                 src="https://images.unsplash.com/photo-1579275542618-a1dfed5f54ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
@@ -186,8 +288,8 @@
                 </form>
               </div>
             </div>
-            <!-- ens subscribe section -->
           </section>
+          <!-- ens subscribe section -->
         </div>
       </article>
       <!-- End of Content -->
