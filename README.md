@@ -4,7 +4,7 @@
 
 ## Welcome to Portflow
 
-**Portflow** is Portfolio web template build with [TailwindCSS](https://tailwindcss.com/) and simple step to start. This project only contains basic files such as **.html**, **.css**, and **.js**. By using TailwindCSS CDN way, this project is [not intended to run in production](https://tailwindcss.com/docs/installation/play-cdn). For now, **Portflow** only provide page layouts for simple Article or Blog UI like [Medium](https://medium.com/). Any future development update will be announced on my [LinkedIn](https://www.linkedin.com/in/agil3st/) profile.
+**Portflow** is Portfolio web template build with [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/) and simple step to start. This project only contains basic files such as **.html**, **.css**, and **.js**. By using TailwindCSS CDN way, this project is [not intended to run in production](https://tailwindcss.com/docs/installation/play-cdn). For now, **Portflow** only provide page layouts for simple Article or Blog UI like [Medium](https://medium.com/). Any future development update will be announced on my [LinkedIn](https://www.linkedin.com/in/agil3st/) profile.
 
 > Portflow may contains another combination of components from [TailwindCSS Components](https://tailwindcomponents.com/)
 
@@ -21,11 +21,11 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 
 ## Pages & Features
 
-- [x] Home
-- [ ] Stories
-- [ ] Showcase
-- [ ] About
-- [ ] Contact
+✅ Home
+⬛ Stories
+⬛ Showcase
+⬛ About
+⬛ Contact
 
 ## Contributing
 
