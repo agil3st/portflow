@@ -19,6 +19,14 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 3. On Visual Studio Code, just run [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 4. That's all
 
+## Pages & Features
+
+- [x] Home
+- [ ] Stories
+- [ ] Showcase
+- [ ] About
+- [ ] Contact
+
 ## Contributing
 
 **Portflow will grow faster** with your basic to advanced knowledge about [HTML and CSS](https://www.w3schools.com/), especially if you are experienced with [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/) or TailwindCSS itself. This is how you can be a part of this project:
