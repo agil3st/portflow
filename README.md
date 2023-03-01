@@ -41,4 +41,13 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 
 > Note: You can do Git stuffs on GitHub Desktop if you prefered
 
+## Attribution
+
+1. Fonts, [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) by Google Font
+2. Icons by [Lineicons](https://lineicons.com/icons/)
+3. 3D Image Assets by [Icons8](https://icons8.com/illustrations/)
+4. Dummy avatar assets by [Pravatar](https://pravatar.cc/)
+5. Dummy content image assets by [Picsum](https://picsum.photos/)
+6. Components reference by [TailwindComponents](https://tailwindcomponents.com/)
+
 --- **_HAPPY CODING!_** ---
