@@ -23,7 +23,7 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 
 - ✅ Home
 - ✅ Stories
-- ⬛ Single Story Page
+- ✅ Single Story Page
 - ✅ Showcase
 - ⬛ Showcase Detail
 - ✅ About
@@ -41,7 +41,7 @@ You can watch live preview on this [site](https://portflow-mu.vercel.app/). You 
 6. Wait for my review and merge
 7. Done
 
-> Note: You can do Git stuffs on GitHub Desktop if you prefered
+> Note: You can do Git stuffs on GitHub Desktop if you preferred
 
 ## Attribution
 
