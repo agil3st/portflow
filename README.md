@@ -1,6 +1,6 @@
 # Portflow
 
-![Portflow](https://i.imgur.com/DuNIzVt.jpg)
+![Portflow](https://i.imgur.com/DgiE7Cr.png)
 
 ## Welcome to Portflow
 
